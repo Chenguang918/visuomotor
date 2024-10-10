@@ -1,5 +1,5 @@
 # Simultaneous Dataset of Brain, Eye, and Hand during Visuomotor Tasks
-
+![Cover Image](info_image.jpg)
 ## Introduction
 
 This repository contains a comprehensive dataset collected during visuomotor tasks that involve brain, eye, and hand coordination. The data was gathered using simultaneous multimodal recordings of electroencephalography (EEG), functional near-infrared spectroscopy (fNIRS), electrocardiography (EKG), eye movement tracking, and joystick responses. This dataset provides insights into the dynamic interaction between visual inputs and motor outputs, offering an invaluable resource for the exploration of visuomotor systems.
