@@ -164,15 +164,6 @@ The dataset and scripts can be used to:
 - Explore temporal and spatial dynamics of brain activity (e.g., EEG N2pc components, fNIRS oxygenation changes).
 - Evaluate physiological responses through EKG, joystick performance, and eye-tracking.
 
-## Example Usage
-
-Example scripts are available to help users get started with data analysis. To load the preprocessed EEG data, use the following script:
-
-```matlab
-% Load EEG data
-load('sub1_EEG_rst.mat');
-eegplot(EEG.data, 'srate', EEG.srate);
-
 ## Data Citation
 
 If you use this dataset in your research, please cite the following:
@@ -189,4 +180,15 @@ For questions or further information, please contact the corresponding author:
 
 **Chenguang Zhao**  
 *Email*: [chenguang918.zhao@gmail.com](mailto:chenguang918.zhao@gmail.com)
+
+## Example Usage
+
+Example scripts are available to help users get started with data analysis. To load the preprocessed EEG data, use the following script:
+
+```matlab
+% Load EEG data
+load('sub1_EEG_rst.mat');
+eegplot(EEG.data, 'srate', EEG.srate).
+
+
 
